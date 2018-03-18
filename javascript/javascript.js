@@ -11,14 +11,6 @@ firebase.initializeApp(config);
 // Create a variable to reference the database.
 var database = firebase.database();
 
-// Initial Values
-var name = "";
-var role = "";
-var start = 0;
-var rate = 0;
-
-
-
 // Capture Button Click
 $("#add-train-btn").on("click", function (event) {
     event.preventDefault();
