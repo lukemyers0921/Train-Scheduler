@@ -1,5 +1,8 @@
 #myJumbo {
-    background-color: sienna;
+    background-color:#428bca;
     color:white;
     text-align: center;
+}
+body {
+    background-image: url("../images/trains.jpg")
 }
